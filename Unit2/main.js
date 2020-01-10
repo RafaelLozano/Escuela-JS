@@ -13,11 +13,13 @@ function printProfession(Person) {
 }
 
 function validateAge(Person) {
-    return Person.age >= Major
+    return Person.age >= AGE_MAJOR
 }
+//Arrow function
+const esMayorDeEdad = person => Person.age >= AGE_MAJOR
 
 function printAge(Person) {
-    if (validateAge(Rafa)) {
+    if (esMayorDeEdad) {
         console.log(Person.name + " es mayor de edad");
     } else {
         console.log(Person.name + " es menor de edad");
