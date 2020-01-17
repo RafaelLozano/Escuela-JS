@@ -1,0 +1,30 @@
+const PERSONA_ALTA = 1.8
+class Persona {
+    constructor(nombre, apellido, altura) {
+        this.name = nombre
+        this.lastName = apellido
+        this.height = altura
+    }
+    hello() {
+        console.log(`Hola me llamo ${this.name} ${this.lastName}`)
+    }
+    soyalto() {
+        return this.height > PERSONA_ALTA
+    }
+}
+class Desarrollador extends Persona {
+
+    constructor(nombre, apellido, altura) {
+        super(nombre, apellido, altura) //constructor de la clase padre
+            //this no funciona
+    }
+    hello() {
+        console.log(`Hola me llamo ${this.name} ${this.lastName} y soy desarrollador/a.`)
+    }
+}
+
+var Rafa = new Persona('Rafa', 'Lozano', 1.65)
+var Gus = new Desarrollador('Gustavo', 'Lozano', 1.85)
+
+Rafa.hello()
+Gus.hello()
