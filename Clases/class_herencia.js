@@ -5,8 +5,12 @@ class Persona {
         this.lastName = apellido
         this.height = altura
     }
-    hello() {
+    hello(fn) {
         console.log(`Hola me llamo ${this.name} ${this.lastName}`)
+        if (fn) {
+            //si recibio una funcion
+            fn(this.name, this.lastName, false)
+        }
     }
     soyalto() {
         return this.height > PERSONA_ALTA
@@ -18,13 +22,26 @@ class Desarrollador extends Persona {
         super(nombre, apellido, altura) //constructor de la clase padre
             //this no funciona
     }
-    hello() {
+
+    hello(fn) {
         console.log(`Hola me llamo ${this.name} ${this.lastName} y soy desarrollador/a.`)
+        if (fn) {
+            //si recibio una funcion
+            fn(this.name, this.lastName, true)
+        }
     }
+
 }
 
+function responderSaludo(nombre, apellido, esDev) {
+    console.log(`Buen dia ${nombre} ${apellido}`)
+    if (esDev) {
+        console.log("No sabia que eras desarrollador/a.")
+    }
+}
 var Rafa = new Persona('Rafa', 'Lozano', 1.65)
 var Gus = new Desarrollador('Gustavo', 'Lozano', 1.85)
 
-Rafa.hello()
-Gus.hello()
+Rafa.hello(responderSaludo)
+debugger
+Gus.hello(responderSaludo)
