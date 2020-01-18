@@ -6,4 +6,11 @@ const options = { crossDomain: true }
 const onResponce = function(persona) {
     console.log(`${persona.name}`)
 }
-$.get(people1, options, onResponce)
+
+function getPerson(id) {
+    const url = `${API_URL}${PEOPLE_URL.replace(':id', id)}`
+    $.get(url, options, onResponce)
+}
+for (var i = 1; i < 10; i++) {
+    getPerson(i)
+}
