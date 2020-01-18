@@ -7,10 +7,18 @@ const onResponce = function(persona) {
     console.log(`${persona.name}`)
 }
 
-function getPerson(id) {
+function getPerson(id, callback) {
     const url = `${API_URL}${PEOPLE_URL.replace(':id', id)}`
-    $.get(url, options, onResponce)
+    $.get(url, options, function(persona) {
+        console.log(`${persona.name}`)
+    })
+    if (callback) {
+        callback()
+    }
 }
-for (var i = 1; i < 10; i++) {
-    getPerson(i)
-}
+//callback hell!!!!
+getPerson(1, function() {
+    getPerson(2, function() {
+        getPerson(3)
+    })
+})
