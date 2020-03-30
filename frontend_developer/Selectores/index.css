@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+p:nth-child(2n) {
+    color: tomato;
+}
+
+p:nth-child(2n+1) {
+    color: yellow;
+}
+
+p::first-letter {
+    color: white;
+    font-size: 22px;
+}
