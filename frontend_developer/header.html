@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medidas relativas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 <style>
     .header {
@@ -20,52 +21,66 @@
         height: 80px;
         margin-left: 10px;
     }
-    .header__menu{
+    
+    .header__menu {
         color: azure;
         margin-right: 60px;
-
     }
-    .header__menu--profile{
-        width: 70px;
+    
+    .header__menu--profile {
+        width: 80px;
         display: flex;
     }
-    .header__menu ul{
+    
+    .header__menu ul {
         display: none;
         list-style: none;
         position: absolute;
         padding: 0;
         text-align: right;
-        margin: 0 0 0 -15px;
-
+        margin: 50px 0 0 0;
     }
-    .header__menu:hover ul,ul:hover{
+    
+    .header__menu:hover ul,
+    ul:hover {
         display: block;
     }
-    .header__menu ul li a{
+    
+    .header__menu ul li a {
         text-decoration: none;
-        color:azure
+        color: white;
     }
+    
+    .header__menu ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    .header__menu--profile img {
+        height: 50px;
+    }
+    
     body {
         margin: 0px;
         background-color: #0f4c81;
-        font-family: 'Muli', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
     }
-    
 </style>
 
 <body>
     <header class="header">
-        <img class="header__img"src="/Background.png" alt="Logo de videos_online">
+        <img class="header__img" src="./Background.png" alt="Logo de videos_online">
         <div class="header__menu">
-            <img class="header__menu--profile"src="./profile.png" alt="">
-            <p>Perfil</p>
-            <ul>
-                <li><a href="/">Cuenta</a></li>
-                <li><a href="/">Cerrar sesion</a></li>
-            </ul>
+            <div class="header__menu--profile">
+                <img src="./logo_profile.png" alt="">
+                <p>Perfil</p>
+                <ul>
+                    <li><a href="/">Cuenta</a></li>
+                    <li><a href="/">Cerrar sesion</a></li>
+                </ul>
+            </div>
         </div>
     </header>
-    
+
 </body>
 
 </html>
