@@ -14,7 +14,6 @@
     
     .header__menu {
         color: azure;
-        margin-right: 50px;
     }
     
     .header__menu--profile {
@@ -52,6 +51,7 @@
     body {
         margin: 0px;
         font-family: 'Source Sans Pro', sans-serif;
+        background-color: black;
     }
     
     .login {
@@ -179,4 +179,17 @@
     
     .footer a:hover {
         text-decoration: underline;
+    }
+    
+    @media only screen and (max-width:600px) {
+        .login__container {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+        }
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
     }
