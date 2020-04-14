@@ -1,0 +1,26 @@
+Babel compilador de javaScript.
+Cambia las versiones para actualizar..
+WebAssembly: no html ni css ni javaScript
+¿Porque usar javaScript?
+    * Electron apps de escritorio
+    * Frontend React
+    * BACKEND/IOT NODEJS
+
+Elementos en un lenguaje de programación
+    * Datos objetos, arrays, strings
+    * Tareas, Funcuiones para hacer una determinada tarea
+    
+Scopes
+    * Scope Global
+    * Scope local: Las variables globales son accesibles desde scope local
+Hoisting
+    * Varibales y funciones se declaran antes que se procese el codigo.
+        -Esto ocurre cuando las fucniones/variables no son declaradas al inicio del archivo o antes de ser consumidas. 
+    * ECMA 5 hacia abajo sucede el hoisting.
+    * ECMA Script 6 solo pasa con palabras reservadas var y function.
+    * Cuando se declaren variables y funciones deben hacerse hasta arriba del archivo.
+
+Coerción
+    *Existen dos tipos
+        -1 Explicita: Obligamos a un valor de un tipo cambie a otro 
+        -2 Implicitas: Cuando cambia de un tipo de valor a otro tipo de valor 4 + "2" regresa string
