@@ -24,3 +24,22 @@ Coerción
     *Existen dos tipos
         -1 Explicita: Obligamos a un valor de un tipo cambie a otro 
         -2 Implicitas: Cuando cambia de un tipo de valor a otro tipo de valor 4 + "2" regresa string
+Valores: truthy falsy
+los valores de las variables
+algo para aprender el dia de mañana sera como utuilizar git de manera profesional al igual con github.
+Como crear un nuevo origin
+Como crear un nuevo repositorio en local y despues subirlo a github. 
+voy a intentar escribir de la emjor manera posible debemos escribir correctamente y utilizar todos los dedos de la mano para optimizar el proceso de ecritura.
+Durante la noche uno puede escribior hasta 5000 palabra por minuto es incrible la forma en la que el cereboro trabaja
+El teclado mecanico es una de mis mejores inversiones al igual que mi computadora
+Crear un nuevo tutorial acerca de la intalacion de rasbia es vital, ahira solo hace falta explicar un pco hacerca del proyecto de la planta automatica 
+No se cuantas palabrtas se capaz de escribir una persona. Durante las noches siento que puedo escribir de una mejor manera no se si son por las luces RGB o que?
+Si cuando mañana no te da flojera ller todo lo que has erscrito durante la noche seras una mejor versión de ti mismo.
+Puntos en los que debemos mejor es en la gramatica, porsupuesto necesitamos leer un poco mas, para mejorar nuestra gramatica en las tildes y en varios aspectos.
+Ptro tutoral que mehustaria escribir en la semana es la diferencia de utilizar relevadores convencionales que ventajas oofrece un relevador de estado solido (SSD) versus VS un relevador mecanico convencional.
+ya me dolieron bien feo las manos por lo que en 10 minutos mas escribire pero no la verdad ya parare pero esta musica no me deja despegarme del teclado y no puedo dejar de escribir.
+LaSJ KASSIE del bar america tiene un excelentes bit para programar o escribir todo la noche eso y en conjunto con las luces RGB son la mejor cura para poder hacer codding in the night.
+maybe I need to write more contenmt in english
+for example triying to explain whatever that I want. That it fot today I'll see you in the next time.
+Bueno se me termino la motivacion por el dia de hoy asi que el dia de mañana estare con mas palabras y y mejor codigo por ecribir y lo mejor es que obtuve mi batch de english, quisiera poder trabajr para una empresa importante y ganar mucho dinero para darle a mi familia todo los que siempre quiseron
+Trabajr en Robert Bosh sera un hecho y una realidad muy protno, despues creare mi propia empresa y a la par de que trabajo como programador en bosh trabjare de fortma indempendiete como freelancer...
