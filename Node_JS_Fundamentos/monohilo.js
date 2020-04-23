@@ -6,3 +6,5 @@ setInterval(function() {
     i++
 
 }, 1000);
+
+console.log("Proceso 2");
